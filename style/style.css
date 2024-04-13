@@ -2,10 +2,10 @@
     margin: 0;
     font-family: "Work Sans", sans-serif;
 }
-/* Prymary Font Color  */
-.prymary-font-color{
-        background: #F948B2;
+/* Primary Font Color  */
+.primary-font-color{
+        /* background: #F948B2; */
         background: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
