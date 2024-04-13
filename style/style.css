@@ -118,20 +118,18 @@
         .banner-container{
             flex-direction: column-reverse;
             align-items: center;
-        }
-        .banner-items{
             padding: 20px;
         }
         .banner img {
             width: 320px;
         }
     .banner-titel{
-        font-size: 65px;
+        font-size: 80px;
     }
     .banner-sun-titel{
-        font-size: 35px;
+        font-size: 43px;
         font-weight:300;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .banner-list{
         font-size: 16px;
@@ -141,8 +139,11 @@
         font-size: 16px;
         margin-top: 20px;
     }
+    .banner-btn{
+        justify-content: center;
+    }
     .banner-btn button{
-        font-size: 11px;
+        font-size: 15px;
     }
 
     }
