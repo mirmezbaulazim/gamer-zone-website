@@ -103,8 +103,47 @@
     .banner img {
         width: 600px;
     }
+    /* We are gamer Section Style  */
+    .we-are-gamer-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 150px;
+        text-align: right;
+    }
+    .we-are-gamer-img img{
+        width: 650px;
+    }
+    .we-are-gamer-items{
+        margin-left: 50px;
+    }
+    .we-are-gamer-titel{
+        font-size: 48px;
+    }
+    .we-are-gamer-discription{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .we-are-gamer-btn{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 10px 25px;
+        border-radius: 30px;
+        border: none;
+        background: #FF42A5;
+    }
+    .we-are-gamer-purpose{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .we-are-gamer-quotes{
+        font-size: 32px;
+        margin-top: 20px;
+    }
     /* Pesponsive Style For Mobile  */
     @media screen and (max-width:576px) {
+        /* Nav Responsive  */
         .nav-container{
             flex-direction: column;
             align-items: center;
@@ -115,6 +154,7 @@
             margin-top: 30px;
             gap: 30px;
         }
+        /* Banner Responsive  */
         .banner-container{
             flex-direction: column-reverse;
             align-items: center;
@@ -144,6 +184,35 @@
     }
     .banner-btn button{
         font-size: 15px;
+    }
+    /* We are gamer Section Responsive  */
+    .we-are-gamer-container{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .we-are-gamer-img img {
+        width: 370px;
+    }
+    .we-are-gamer-items {
+        margin-left: 0;
+    }
+    .we-are-gamer-titel {
+        font-size: 45px;
+    }
+    .we-are-gamer-discription {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .we-are-gamer-btn{
+        font-size: 15px;
+    }
+    .we-are-gamer-quotes {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .we-are-gamer-purpose {
+        margin-top: 40px;
     }
 
     }
