@@ -142,6 +142,16 @@
         margin-top: 20px;
     }
     /* Online Games Section Style  */
+    .online-games-titel{
+        text-align: center;
+        font-size: 48px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .online-games-discription{
+        text-align: center;
+        font-size: 18px;
+    }
     .online-games-list{
         display: grid;
         grid-template-columns: repeat(4,1fr);
@@ -151,6 +161,11 @@
     }
     .online-games-list img{
         width: 280px;
+    }
+    .online-games-word{
+        width: 285px;
+        margin-left: 10px;
+        
     }
     /* Pesponsive Style For Mobile  */
     @media screen and (max-width:576px) {
@@ -226,5 +241,23 @@
     .we-are-gamer-purpose {
         margin-top: 40px;
     }
-
+     /* Online Games Section Responsive  */
+    .online-games-list{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        justify-items: center;
+    }
+    .online-games-titel {
+        font-size: 22px;
+    }
+    .online-games-discription {
+        font-size: 15px;
+    }
+    .online-games-items{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .online-games-word {
+        margin-left: 0;
+    }
     }
