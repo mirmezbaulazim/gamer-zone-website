@@ -141,6 +141,17 @@
         font-size: 32px;
         margin-top: 20px;
     }
+    /* Online Games Section Style  */
+    .online-games-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 30px 150px;
+        justify-content: center;
+        text-align: start;
+    }
+    .online-games-list img{
+        width: 280px;
+    }
     /* Pesponsive Style For Mobile  */
     @media screen and (max-width:576px) {
         /* Nav Responsive  */
@@ -159,6 +170,7 @@
             flex-direction: column-reverse;
             align-items: center;
             padding: 20px;
+            background-image: none;
         }
         .banner img {
             width: 320px;
