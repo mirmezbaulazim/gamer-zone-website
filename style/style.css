@@ -167,6 +167,66 @@
         margin-left: 10px;
         
     }
+    /* Game Section Two Style  */
+    .games-container-1{
+        display: flex;
+        padding: 30px 150px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: right;
+        margin-top: 50px;
+    }
+    .games-container-1-img-items-1 img{
+        width: 450px;
+    }
+    .games-container-1-img-items-2 img{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: -120px;
+        width: 200px;
+    }
+    .games-container-1-titel{
+        font-size: 48px; 
+    }
+    .games-container-1-discription{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .games-container-1-section{
+        width: 341px;
+        margin-left: 120px;
+    }
+    /* Game Section Three Style  */
+    .games-container-2{
+        display: flex;
+        padding: 30px 150px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .games-container-2-img-items-1 img{
+        width: 450px;
+    }
+    .games-container-2-img-items-2 img{
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 340px;
+        width: 200px;
+    }
+    .games-container-2-section{
+        width: 312px;
+        margin-right: 100px;
+    }
+    .games-container-2-titel{
+        font-size: 48px; 
+    }
+    .games-container-2-discription{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    /* Careers Section Style  */
+    
     /* Pesponsive Style For Mobile  */
     @media screen and (max-width:576px) {
         /* Nav Responsive  */
@@ -260,4 +320,50 @@
     .online-games-word {
         margin-left: 0;
     }
+    /* Game Section Two Responsive  */
+    .games-container-1{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .games-container-1-section{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .games-container-1-img-items-1 img{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .games-container-1-img-items-2 img{
+        margin-top: -80px;
+        margin-left: -175px;
+        width: 100px;
+    }
+    /* Game Section Three Responsive  */
+    .games-container-2{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+    }
+    .games-container-2-section{
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    .games-container-2-img-items-1 img{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .games-container-2-img-items-2 img{
+        margin-top: -80px;
+        margin-left: -175px;
+        width: 100px;
+    }
+    .games-container-2-titel {
+        font-size: 36px;
+    }
+    .games-container-2-discription {
+        font-size: 14px;
+    }
+    /* Careers Section Responsive  */
     }
