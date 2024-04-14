@@ -226,6 +226,48 @@
         margin-top: 20px;
     }
     /* Careers Section Style  */
+    .careers-container{
+        background: #FF42A5;
+        margin-top: 100px;
+        display: flex;
+        /* padding: 0 150px; */
+        align-items: center;
+        justify-content: space-between;
+        color: #E7E6E9;
+    }
+    .careers-items{
+        padding: 0 110px;
+    }
+    .careers-titel{
+        font-size: 48px;
+    }
+    .careers-discription{
+        font-size: 18px;
+        text-align: start;
+        margin-top: 20px;
+    }
+    .careers-list{
+        display: flex;
+        font-size: 20px;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    .careers-list-items-2{
+        text-align: end;
+    }
+    .careers-btn{
+        font-size: 20px;
+        color: #FF42A5;
+        background: #E7E6E9;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    .careers-img img{
+        width: 650px;
+    }
+    /* Game List Section Style  */
     
     /* Pesponsive Style For Mobile  */
     @media screen and (max-width:576px) {
@@ -366,4 +408,21 @@
         font-size: 14px;
     }
     /* Careers Section Responsive  */
+    .careers-container{
+        flex-direction: column;
+    }
+    .careers-items {
+        padding: 10px 20px;
+    }
+    .careers-discription {
+        font-size: 15px;
+    }
+    .careers-list{
+        font-size: 15px;
+    }
+    .careers-img img {
+        width: 320px;
+        margin-top: 20px;
+    }
+    /* Game List Section Responsive  */
     }
