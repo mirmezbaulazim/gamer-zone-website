@@ -292,6 +292,46 @@
         border: 2px solid #FF42A5;
         border-radius: 25px;
     }
+    /* Footer Section Style  */
+    footer{
+        background: #0B0223;
+        color: #E7E6E9;
+        padding: 50px 150px;
+    }
+    .footer-titel{
+        display: flex;
+        align-items: center;
+        font-size: 45px;
+        justify-content: center;
+    }
+    .footer-about{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 18px;
+        gap: 50px;
+    }
+    .footer-icons{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer-icons i{
+        font-size: 30px;
+        margin: 0 25px;
+        color: #E7E6E9;
+    }
+    .footer-warning{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 50px;
+        font-size: 16px;
+    }
+    .footer-copyright{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
+    }
     /* Pesponsive Style For Mobile  */
     @media screen and (max-width:576px) {
         /* Nav Responsive  */
@@ -455,5 +495,24 @@
     .game-list{
         width: 150px;
         font-size: 15px;
+    }
+    /* Footer Section Responsive  */
+    footer{
+        padding: 20px;
+    }
+    .footer-about{
+        flex-wrap: wrap;
+        gap: 25px 30px;
+    }
+    .footer-icons{
+        margin-top: 0;
+    }
+    .footer-icons i{
+        margin-top: 50px;
+    }
+    .footer-warning{
+        flex-wrap: wrap; 
+        gap: 25px 30px;
+        margin-top: 50px;
     }
     }
