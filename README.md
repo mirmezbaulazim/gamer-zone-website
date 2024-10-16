@@ -6,7 +6,4 @@ This project creat by Mir Mezbaul Azim useing HTML & CSS
 
 Projecct Publish at : https://mirmezbaulazim.github.io/gamer-zone-website
 
-Contact
-Mir Mezbaul Azim
-@mirmezbaulazim
-mirmezbaulazim@gmail.com
+Contact : mirmezbaulazim@gmail.com
